@@ -1,0 +1,34 @@
+CREATE DATABASE MasteringSql;
+
+USE MasteringSql;
+
+
+CREATE TABLE Employee(
+    ID INT PRIMARY KEY,
+    FirstName VARCHAR(20),
+    LastName VARCHAR(20),
+    Gender VARCHAR(10),
+    Salary DECIMAL(10,2)
+);
+
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (1, 'John', 'Smith', 'M', 55000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (2, 'Jane', 'Doe', 'F', 62000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (3, 'Emily', 'Johnson', 'F', 45000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (4, 'Michael', 'Brown', 'M', 48000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (5, 'Sarah', 'Davis', 'F', 51000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (6, 'William', 'Miller', 'M', 53000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (7, 'Jessica', 'Wilson', 'F', 57500.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (8, 'Daniel', 'Moore', 'M', 62500.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (9, 'Laura', 'Taylor', 'F', 60000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (10, 'Robert', 'Anderson', 'M', 49000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (11, 'Lisa', 'Thomas', 'F', 53000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (12, 'James', 'Jackson', 'M', 47000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (13, 'Linda', 'White', 'F', 64000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (14, 'David', 'Harris', 'M', 56000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (15, 'Karen', 'Martin', 'F', 52000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (16, 'Richard', 'Garcia', 'M', 58000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (17, 'Nancy', 'Martinez', 'F', 61000.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (18, 'Joseph', 'Robinson', 'M', 49500.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (19, 'Angela', 'Clark', 'F', 56500.00);
+INSERT INTO Employee (Id, FirstName, LastName, Gender, Salary) VALUES (20, 'Thomas', 'Rodriguez', 'M', 63000.00);
+
