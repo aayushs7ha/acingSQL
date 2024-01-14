@@ -1,0 +1,3 @@
+-- using Subquery
+SELECT Salary FROM Employee 
+WHERE  Salary < (SELECT MAX(Salary) from Employee);
